@@ -1,0 +1,9 @@
+.wechat__wrap {
+  display: flex;
+}
+.wechat__wrap img {
+  margin: 20px;
+  width: 200px;
+  border: 1px solid #999;
+  border-radius: 9px;
+}
