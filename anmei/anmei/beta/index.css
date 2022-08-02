@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-weight: bold;
+    padding-left: 66px;
+    display: flex;
+    /* justify-content: center; */
+    background-color: #7e8180;
+    align-items: center;
+    font-size: 30px;
+}
+.cont{
+    display: flex;
+    margin: 0 2%;
+}
+.cont .hov{
+    width: 30.333%;
+    margin: 1.5%;
+    background: blanchedalmond;
+    line-height: 0;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 6px 12px 4px rgba(0,0,0,.1);
+    position: relative;
+    border-radius: 4px;
+}
+.cont .hov:hover img{
+    transform: translateY(-40px);
+}
+.cont .hov img{
+    width: 100%;
+    transition: transform .39s;
+}
+.cont .hov .hov_cont{
+    position: absolute;
+    bottom: -60px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background: rgb(54, 206, 211);
+    opacity: 1;
+    transition: bottom .3s;
+    border-radius: 2px;
+}
+.cont .hov:hover .hov_cont{
+    bottom: 0px;
+}
+.cont .hov .hov_cont .hov_cont_butt{
+    width: 40%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.cont .hov .hov_cont .hov_cont_butt p{
+    width: 60%;
+    line-height: 40px;
+    margin: 10px auto;
+    border: 1px solid white;
+    color: white;
+    background: #1D8286;
+    transition: all .2s;
+    border-radius: 4px;
+}
+.cont .hov .hov_cont .hov_cont_butt:hover p{
+    background: #125154;
+}
+.cont .hov .hov_cont .hov_cont_det{
+    width: 70%;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+}

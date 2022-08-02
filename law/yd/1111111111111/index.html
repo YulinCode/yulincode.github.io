@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>北京博仁律师事务所</title>
+    <link rel="stylesheet" href="style/swiper.min.css" />
+    <link rel="stylesheet" href="style/css.css" />
+    <script>
+      ;(function (doc, win) {
+        var docEl = win.document.documentElement
+        var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize'
+        var refreshRem = function () {
+          var clientWidth = win.innerWidth || doc.documentElement.clientWidth || doc.body.clientWidth
+
+          console.log(clientWidth)
+          if (!clientWidth) return
+          var fz
+          var width = clientWidth
+          fz = (100 * width) / 640
+          if (fz >= 100) {
+            fz = 100
+          }
+          docEl.style.fontSize = fz + 'px'
+        }
+
+        if (!doc.addEventListener) return
+        win.addEventListener(resizeEvt, refreshRem, false)
+        doc.addEventListener('DOMContentLoaded', refreshRem, false)
+        refreshRem()
+      })(document, window)
+    </script>
+    <script src="style/TouchSlide.1.1.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="style/B2_03.jpg" alt="" />
+      </div>
+      <div class="hdcontt">
+        <p class="hdbiao">品牌典范律所</p>
+        <p class="hdzhuan">因为专业，值得信赖</p>
+      </div>
+      <div class="hdside">
+        <a href="tel:4000999820">
+          <img src="style/B2_05.jpg" alt="" />
+        </a>
+      </div>
+    </header>
+    <div class="conts">
+      <!-- BANNER -->
+      <div onclick="clic()" class="banner">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="style/banner1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="style/banner2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- 业务范围 -->
+      <div class="ywfanwei">
+        <div class="biaoti">
+          <i class="dal"></i>
+          <p class="dabt">业务范围</p>
+          <i class="dar"></i>
+          <p class="xiaobt">专业解决各类法律问题,维护当事人合法权益</p>
+        </div>
+        <div class="ywcont">
+          <div class="yw1">
+            <img src="style/合同信息.png" alt="" />
+            <p class="fw">合同纠纷</p>
+            <p onclick="clic()" class="djzx">点击咨询</p>
+          </div>
+          <div class="yw2">
+            <img src="style/1_4婚礼婚庆.png" alt="" />
+            <p class="fw">婚姻家庭</p>
+            <p onclick="clic()" class="djzx">点击咨询</p>
+          </div>
+          <div class="yw3">
+            <img src="style/fc.png" alt="" />
+            <p class="fw">房产纠纷</p>
+            <p onclick="clic()" class="djzx">点击咨询</p>
+          </div>
+          <div class="yw4">
+            <img src="style/研判锤子.png" alt="" />
+            <p class="fw">刑事辩护</p>
+            <p onclick="clic()" class="djzx">点击咨询</p>
+          </div>
+          <div class="yw5">
+            <img src="style/钱袋.png" alt="" />
+            <p class="fw">债务纠纷</p>
+            <p onclick="clic()" class="djzx">点击咨询</p>
+          </div>
+          <div class="yw6">
+            <img src="style/人数.png" alt="" />
+            <p class="fw">遗产继承</p>
+            <p onclick="clic()" class="djzx">点击咨询</p>
+          </div>
+          <div class="yw7">
+            <img src="style/咨询帮助.png" alt="" />
+            <p class="fw">企业法律顾问</p>
+            <p onclick="clic()" class="djzx">点击咨询</p>
+          </div>
+          <div class="yw8">
+            <img src="style/知识点.png" alt="" />
+            <p class="fw">知识产权</p>
+            <p onclick="clic()" class="djzx">点击咨询</p>
+          </div>
+          <div class="yw9">
+            <img src="style/B2_15.jpg" alt="" />
+            <p class="fw">征地拆迁</p>
+            <p onclick="clic()" class="djzx">点击咨询</p>
+          </div>
+        </div>
+        <div class="lianxi">
+          <a href="tel:4000999820">
+            <div class="phone">
+              <img src="style/电话.png" alt="" />
+              <p>400-0999-820</p>
+            </div>
+          </a>
+          <div class="phone">
+            <img onclick="clic()" src="style/消息.png" alt="" />
+            <p>在线咨询律师</p>
+          </div>
+        </div>
+      </div>
+      <!-- 热门律师 -->
+      <div class="rmlvshi">
+        <div class="biaoti">
+          <i class="dali"></i>
+          <p class="dabt">热门律师推荐</p>
+          <i class="dari"></i>
+          <p class="xiaobt">多年经验，擅长各类重大、疑难、复杂案件</p>
+        </div>
+        <!--  -->
+        <div style="font-size: 40px" class="ls" id="ls">
+          <ul class="lsall">
+            <li>
+              <dd>
+                <a
+                  ><div class="lst"><img src="style/ly.png" width="100%" /></div
+                ></a>
+                <h4><span>主任律师</span>陆阳</h4>
+                <p>
+                  陆阳律师从事刑事审判工作十余年，多年一线政法工作经验，积累了过硬的刑事理论基础、丰富的实战经验。在刑事辩护和运用刑事追赃程序挽回被害人损失方面，有成熟的经验...
+                </p>
+                <a onclick="clic()" class="lst1">立即咨询</a>
+                <a href="tel:4000999820" class="lst2">免费预约</a>
+              </dd>
+              <dd>
+                <a
+                  ><div class="lst">
+                    <img src="style/lje.png" width="100%" /></div
+                ></a>
+                <h4><span>高级顾问</span>罗江鄂</h4>
+                <p>
+                  曾任某中级人民法院民庭审判法官，同时担任立案一庭庭长兼任诉讼中心主任。能灵活运用多年丰富的法官工作经验处理各类案件，尤其擅长处理各类民商事合同纠纷、建设工程纠纷案件...
+                </p>
+                <a onclick="clic()" class="lst1">立即咨询</a>
+                <a href="tel:4000999820" class="lst2">免费预约</a>
+              </dd>
+            </li>
+            <li>
+              <dd>
+                <a
+                  ><div class="lst">
+                    <img src="style/mhq.png" width="100%" /></div
+                ></a>
+                <h4><span>主任律师</span>马惠启</h4>
+                <p>
+                  自1999年开始执业至今，专职从事民商事诉讼业务。对合同法、物权法、民法等有很深的造诣，并担任多家央企、高等学府、大型企业法律顾问。21年诉讼经验的积累使其近年出庭案件无一败绩...
+                </p>
+                <a onclick="clic()" class="lst1">立即咨询</a>
+                <a href="tel:4000999820" class="lst2">免费预约</a>
+              </dd>
+              <dd>
+                <a
+                  ><div class="lst">
+                    <img src="style/ygf.png" width="100%" /></div
+                ></a>
+                <h4><span>资深律师</span>杨高范</h4>
+                <p>
+                  曾在北京法院从事十五年民商事审判工作，在合同法、公司法、知识产权法等领域有深入研究。2016年离职后，开始在律所执业。其专业、高效的法律服务赢得了当事人的普遍信任、赞誉...
+                </p>
+                <a onclick="clic()" class="lst1">立即咨询</a>
+                <a href="tel:4000999820" class="lst2">免费预约</a>
+              </dd>
+            </li>
+            <li>
+              <dd>
+                <a
+                  ><div class="lst"><img src="style/wc.png" width="100%" /></div
+                ></a>
+                <h4><span>专职律师</span>王成</h4>
+                <p>
+                  至今已执业12年，具有深厚的法学理论功底和丰富的法律实践经验，将维护当事人的合法权益作为接受委托的前提。专业擅长民商事诉讼，法律顾问，合同法、公司法、劳动法...
+                </p>
+                <a onclick="clic()" class="lst1">立即咨询</a>
+                <a href="tel:4000999820" class="lst2">免费预约</a>
+              </dd>
+              <dd>
+                <a
+                  ><div class="lst"><img src="style/xx.png" width="100%" /></div
+                ></a>
+                <h4><span>专职律师</span>线羡</h4>
+                <p>
+                  自中国政法大学毕业后就职于北京市东城区人民法院综合审判庭，今年已是执业第8年。在多年的法律工作中积累了大量的审判及诉讼经验。擅长民法、合同法、婚姻家庭等领域...
+                </p>
+                <a onclick="clic()" class="lst1">立即咨询</a>
+                <a href="tel:4000999820" class="lst2">免费预约</a>
+              </dd>
+            </li>
+          </ul>
+          <div class="hid">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+        <script type="text/javascript">
+          TouchSlide({
+            slideCell: '#ls',
+            titCell: '.hid ul li',
+            mainCell: '.lsall',
+            effect: 'leftLoop',
+            autoPlay: true,
+            interTime: 10000,
+          })
+        </script>
+        <!--  -->
+
+        <div class="lianxi">
+          <a href="tel:4000999820">
+            <div class="phone">
+              <img src="style/电话.png" alt="" />
+              <p>400-0999-820</p>
+            </div>
+          </a>
+
+          <div onclick="clic()" class="phone">
+            <img src="style/消息.png" alt="" />
+            <p>在线咨询律师</p>
+          </div>
+        </div>
+      </div>
+      <!-- 专业优势 -->
+      <div class="zhuanyeys">
+        <div class="biaoti">
+          <i class="dal"></i>
+          <p class="dabt">专业优势</p>
+          <i class="dar"></i>
+          <p class="xiaobt">团队协作，高效办案</p>
+        </div>
+        <div class="youshi">
+          <div class="d1">
+            <div class="youshiimg">
+              <img src="style/奖章.png" alt="" />
+            </div>
+            <p class="p1">经验丰富</p>
+            <p class="p2">多年法律从业经验，用丰富的实战经验为您制定<span>胜诉</span>方案！</p>
+          </div>
+          <div class="d1">
+            <div class="youshiimg">
+              <img src="style/团队.png" alt="" />
+            </div>
+            <p class="p1">精英团队</p>
+            <p class="p2">
+              <span>20年</span>资深律师团队， <span>专办重大、疑难、复杂案件</span>，满足客户全方位法律需求！
+            </p>
+          </div>
+          <div class="d1">
+            <div class="youshiimg">
+              <img src="style/救援价格.png" alt="" />
+            </div>
+            <p class="p1">价格合理</p>
+            <p class="p2">
+              <span>收费透明</span>，拒绝漫天要价！ 让您<span>打官司</span>能<span>不花冤枉钱！</span>
+            </p>
+          </div>
+          <div class="d1">
+            <div class="youshiimg">
+              <img src="style/赞.png" alt="" />
+            </div>
+            <p class="p1">量身定制</p>
+            <p class="p2">根据客户自身案件情况，指派<span>专业律师团队</span>，尽心竭力为您服务！</p>
+          </div>
+          <div class="d1">
+            <div class="youshiimg">
+              <img src="style/咨询.png" alt="" />
+            </div>
+            <p class="p1">高效咨询</p>
+            <p class="p2">
+              <span> 30秒</span>内在线回复！<br />
+              <span>3分钟</span>内给您回电！<br />
+              <span>6小时内</span>制定初步方案！
+            </p>
+          </div>
+          <div class="youshilli lianxi">
+            <a href="tel:4000999820">
+              <div class="phone">
+                <img src="style/电话.png" alt="" />
+                <p>400-0999-820</p>
+              </div>
+            </a>
+            <div onclick="clic()" class="phone">
+              <img src="style/消息.png" alt="" />
+              <p>在线咨询律师</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 案例 -->
+      <div class="anli">
+        <div class="biaoti">
+          <i class="dal"></i>
+          <p class="dabt">成功案例</p>
+          <i class="dar"></i>
+          <p class="xiaobt">多年办案经验，胜诉率高</p>
+        </div>
+        <div class="anlis">
+          <img onclick="clic()" src="style/anli.png" alt="" />
+          <div onclick="clic()">代理杨某运输毒品案，一审<span>死刑</span>，二审<span>死缓（免死）</span></div>
+          <div onclick="clic()">
+            代理张某破坏计算机系统案，在检方建议量刑七年以上的情况下， 成功辩护为无罪。<span
+              >（无罪辩护）</span
+            >
+          </div>
+          <div onclick="clic()">
+            代理深圳市某信息技术股份有限公司、王某单位行贿案432.5万
+            <span>（缓刑）</span>
+          </div>
+          <div onclick="clic()">
+            为某国有银行提供法律服务，通过刑事诉讼措施，减少被骗款项
+            <span>6亿余元。</span>
+          </div>
+          <div onclick="clic()">
+            为某省信用社化解内部人员造成的<span>5.6亿</span>余元经济损失，并排除
+            涉及<span>8亿余</span>元非法集资的风险。
+          </div>
+          <div onclick="clic()">
+            代理刘某某股权转让纠纷仲裁案，促使客户成功收回注册资金
+            <span>2500万元</span>的公司股权。
+          </div>
+          <div onclick="clic()">北京高级人民法院刘某与董某离婚纠纷<span>再审</span>案</div>
+          <div onclick="clic()">梁某、劳某分家析产、子女抚养权纠纷<span>再审</span>案</div>
+          <div onclick="clic()">
+            北京某科技有限公司与北京市某市政工程有限公司建设工程施工合同纠纷案<span
+              >（标的额1亿2500万元）</span
+            >
+          </div>
+          <div onclick="clic()">
+            北京某贸易有限公司与山东某有限公司建设工程合同纠纷案<span>（标的额4亿4000万元）</span>
+          </div>
+        </div>
+        <div class="lianxi">
+          <a href="tel:4000999820">
+            <div class="phone">
+              <img src="style/电话.png" alt="" />
+              <p>400-0999-820</p>
+            </div>
+          </a>
+          <div onclick="clic()" class="phone">
+            <img src="style/消息.png" alt="" />
+            <p>在线咨询律师</p>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer>
+        <p class="zxr">咨询热线: 400-0999-820</p>
+        <p class="diz">地址: 北京市海淀区中关村南大街6号 中电信息大厦19-20层</p>
+        <p>Copyright © 2019.北京橄榄豆网络科技有限公司 京ICP备17009408号</p>
+      </footer>
+
+      <!-- 浮窗 -->
+      <div class="footer" style="max-width: 640px" style="max-width: 640px">
+        <a href="tel:4000999820">
+          <img src="./style/tels.gif" />
+          <span>拨打电话</span>
+        </a>
+        <a onclick="clic()">
+          <img src="./style/zx.png" />
+          <span>在线咨询</span>
+        </a>
+      </div>
+      <!-- 浮窗 -->
+    </div>
+  </body>
+  <script src="style/swiper.min.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+      autoplay: {
+        disableOnInteraction: false,
+      },
+      speed: 1000,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    })
+    mySwiper.params.pagination.clickable = true
+    //此外还需要重新初始化pagination
+    mySwiper.pagination.destroy()
+    mySwiper.pagination.init()
+    mySwiper.pagination.bullets.eq(0).addClass('swiper-pagination-bullet-active')
+  </script>
+</html>
+<script
+  language="javascript"
+  src="http://pwt.zoosnet.net/JS/LsJS.aspx?siteid=PWT15875131&float=1&lng=cn"
+></script>
+<script>
+  function clic() {
+    openZoosUrl('chatwin')
+    LR_HideInvite()
+    return false
+  }
+</script>

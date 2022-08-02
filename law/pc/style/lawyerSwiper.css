@@ -1,0 +1,125 @@
+﻿  /* <!-- 律师就在身边 start --> */
+  .lawyer_side{
+    height: 134px;
+    margin-top: 74px;
+    margin-bottom: 42px;
+  }
+  .lawyer_side_left{
+    float: left;
+    overflow: hidden;
+  }
+  .lawyer_side_left>h1{
+    font-size: 36px;
+    font-family: "Microsoft YaHei";
+    color: rgb(0, 88, 170);
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .lawyer_side_left>span{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(0, 88, 170);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    -moz-transform: matrix( 0.59282105263475,0,0,0.59282105263476,0,0);
+    -webkit-transform: matrix( 0.59282105263475,0,0,0.59282105263476,0,0);
+    -ms-transform: matrix( 0.59282105263475,0,0,0.59282105263476,0,0);
+    transform: matrix( 0.59282105263475,0,0,0.59282105263476,0,0);
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgb(0, 88, 170);
+
+  }
+  .lawyer_side_left>p{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(153, 153, 153);
+    margin-top: 30px;
+  }
+  .lawyer_side_right{
+    float: right;
+    width: 898px;
+    height: 100%;
+    position: relative;
+  }
+  .lawyer_side_swiper{
+    width: 790px;
+    margin: auto;
+  }
+
+  .lawyer_side_swiper .lawyer_info_bxo>span{
+    float: left;
+  }
+  .lawyer_side_swiper .lawyer_info_bxo>span>img{
+      width: 135px;
+  }
+  .lawyer_side_swiper .lawyer_info_bxo>div{
+    float: left;
+    padding-top: 12px;
+    padding-left: 17px;
+    box-sizing: border-box;
+    width: 240px;
+    background-color: #ffffff;
+    height: 134px;
+  }
+  .lawyer_side_swiper .lawyer_info_bxo>div>big{
+    display: block;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+    margin-bottom: 8px;
+  }
+  .lawyer_side_swiper .lawyer_info_bxo>div>big>span{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+    margin-bottom: 8px;
+  }
+  .lawyer_side_swiper .lawyer_info_bxo>div>p{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(136, 136, 136);
+  }
+  .lawyer_side_swiper .lawyer_info_bxo>div>span>a{
+    display: inline-block;
+    width: 89px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(0, 75, 146);
+    margin-top: 14px;
+    cursor: pointer;
+  }
+  .lawyer_side_swiper .lawyer_info_bxo>div>span>a:nth-child(1){
+    border: 1px solid #cccccc;
+    margin-right: 16px;
+  }
+  .lawyer_side_swiper .lawyer_info_bxo>div>span>a:nth-child(2){
+    border: 1px solid #014b92;
+  }
+  .lawyer_side_swiper .lawyer_info_bxo>div>span>a:hover{
+    background-color: #014b92;
+    color: #ffffff;
+  }
+  .lawyer_side_right .swiper-button-prev{
+    width: 21px;
+    height: 39px;
+    border-width: 1px;
+    border-color: rgb(170, 170, 170);
+    border-style: solid;
+    /* background: url("../images/swiper_btn_left.png")no-repeat; */
+    background-position: 6px 13px!important;
+  }
+  .lawyer_side_right .swiper-button-next{
+    width: 21px;
+    height: 39px;
+    border-width: 1px;
+    border-color: rgb(170, 170, 170);
+    border-style: solid;
+    /* background: url("../images/swiper_btn_right.png")no-repeat; */
+    background-position: 6px 13px!important;
+    right: 28px!important;
+  }
+  /* <!-- 律师就在身边 end --> */

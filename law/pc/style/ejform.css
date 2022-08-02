@@ -1,0 +1,167 @@
+/* S 二级表单 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix{
+    zoom: 1;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.ejForm {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99999;
+  }
+  .ejform_content {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+   width: 616px;
+   height: 500px;
+   margin: auto;
+  }
+  .ejform_content > div {
+      position: relative;
+    background-color: #fff;
+  }
+ 
+  .ejform_content > div .ejform_title {
+    width: 100%;
+    height: 70px;
+    background-color: #277bcb;
+    text-align: center;
+  }
+  .ejform_content > div .ejform_title > h3 {
+    font-size: 20px;
+    font-family: "PingFang";
+    color: #ffffff;
+    padding-top: 6px;
+  }
+  .ejform_content > div .ejform_title > p {
+    font-size:18px;
+    font-family: "PingFang";
+    color: #ffffff;
+  }
+  .ejform_content > div .ejform_cont {
+    padding:20px 30px;
+  }
+  .ejform_content > div .ejform_cont > p {
+    font-family: "PingFang";
+    color: #333333;
+    line-height: 30px;
+    border:1px solid #cce6f3;
+    border-radius: 3px;
+    background-color: #f0faff;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .ejform_content > div .ejform_cont > p > span {
+    color: #277bcb;
+  }
+  .ejform_content > div .ejform_cont > div {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .ejform_content > div .ejform_cont > div > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .ejform_content > div .ejform_cont > div > div > span:nth-child(1) {
+      font-size: 16px;
+    font-family: "PingFang";
+    color: #888888;
+  }
+  .ejform_content > div .ejform_cont > div > div > span:nth-child(2) {
+    position: relative;
+    width: 324px;
+  }
+  .ejform_content > div .ejform_cont > div > div > span:nth-child(2) .hideInput {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+  }
+  .ejform_content > div .ejform_cont > div > div > span:nth-child(2) > label {
+      display: inline-block;
+      width: 156px;
+      height: 35px;
+      line-height: 33px;
+      text-align: center;
+      border: 1px solid #277bcb;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: "PingFang";
+    color: #666666;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .ejform_content > div .ejform_cont > div > div > span:nth-child(2) > label.active{
+      color: #fff;
+      border-bottom-color: #277bcb;
+  }
+  .ejform_content > div .ejform_cont > div > div > span:nth-child(2) > label:nth-child(2) {
+    margin-top: 0;
+  }
+  .ejform_content > div .ejform_cont > div > div > span:nth-child(2) > label:nth-child(3) {
+    margin-top: 0;
+  }
+  .ejform_content > div .ejform_cont > div > div > span:nth-child(2) > .active {
+    background-color: #277bcb;
+    color: #fff!important;
+  }
+  .ejform_content > div .ejform_cont > div > div > textarea {
+    width: 526px;
+    height: 80px;
+    border: 1px solid #e5e5e5;
+    background-color: #f6f6f6;
+    resize: none;
+    padding: 10px 12px;
+  }
+  .ejform_content > div .ejform_cont > div > button {
+    display: block;
+    background-color: #277bcb;
+    font-size: 18px;
+    font-family: "PingFang";
+    color: #ffffff;
+      width: 60%;
+      height: 50px;
+      margin-left: 20% !important;
+      font-size: 14px;
+      color: white;
+      background-color: #277bcb;
+      margin: 0 auto;
+      margin-bottom: 8px;
+      border-radius: 50px;
+      outline: none;
+      border: 0;
+  }
+  .ejform_content > div .ejform_cont > div > p {
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+  }
+  .ejform_content > div .ejform_cont > div > p > span {
+    color: #ff2424;
+  }
+  /* E 二级表单 */

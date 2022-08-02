@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>北京市博仁律师事务所</title>
+    <link rel="stylesheet" href="style/swiper.min.css" />
+    <link rel="stylesheet" href="style/css.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+      .aa {
+        border-bottom: 2px solid transparent;
+      }
+    </style>
+    <script>
+      ;(function (doc, win) {
+        var docEl = win.document.documentElement
+        var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize'
+        var refreshRem = function () {
+          var clientWidth = win.innerWidth || doc.documentElement.clientWidth || doc.body.clientWidth
+
+          console.log(clientWidth)
+          if (!clientWidth) return
+          var fz
+          var width = clientWidth
+          fz = (100 * width) / 640
+          if (fz >= 100) {
+            fz = 100
+          }
+          docEl.style.fontSize = fz + 'px'
+        }
+
+        if (!doc.addEventListener) return
+        win.addEventListener(resizeEvt, refreshRem, false)
+        doc.addEventListener('DOMContentLoaded', refreshRem, false)
+        refreshRem()
+      })(document, window)
+    </script>
+
+    <script>
+      var _hmt = _hmt || []
+      ;(function () {
+        var hm = document.createElement('script')
+        hm.src = 'https://hm.baidu.com/hm.js?c1fade3748b9dc42f74996c76dbfec11'
+        var s = document.getElementsByTagName('script')[0]
+        s.parentNode.insertBefore(hm, s)
+      })()
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="style/B2_03.jpg" alt="" />
+      </div>
+      <div class="hdcontt">
+        <p class="hdbiao">品牌典范</p>
+        <p class="hdzhuan">20年房产业务经验</p>
+      </div>
+      <div class="hdside">
+        <a href="tel:12345678901">
+          <img src="style/B2_05.jpg" alt="" />
+        </a>
+      </div>
+    </header>
+    <div class="conts">
+      <!-- BANNER -->
+      <div onclick="clic()" class="banner">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="style/banner11.jpg" alt="" />
+            </div>
+            <!-- <div class="swiper-slide">
+              <img src="style/banner2.jpg" alt="" />
+            </div> -->
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
+      <!-- 快速离婚 -->
+    </div>
+    <!-- 业务范围 -->
+    <div id="yewu">
+      <div class="biaoti">
+        <p>业务范围</p>
+      </div>
+      <div class="cont">
+        <div onclick="clic()">
+          <img src="style/1.png" alt="" />
+          <p>房屋买卖纠纷</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/2.png" alt="" />
+          <p>宅基地纠纷</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/3.png" alt="" />
+          <p>房产继承纠纷</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/4.png" alt="" />
+          <p>离婚房产分割</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/5.png" alt="" />
+          <p>土地确权</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/6.png" alt="" />
+          <p>房屋租赁纠纷</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/7.png" alt="" />
+          <p>企业房产纠纷</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/8.png" alt="" />
+          <p>烂尾楼维权</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/9.png" alt="" />
+          <p>征地拆迁</p>
+        </div>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901">
+          <div class="phone" onclick="clic()">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div>
+        </a>
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 婚姻难题 -->
+    <div id="nanti">
+      <div class="biaoti">
+        <p>其他人还关注这些问题</p>
+      </div>
+      <div class="cont">
+        <ul>
+          <li onclick="clic()">二手房买卖合同签署后双方违约应承担多少违约金？</li>
+          <li onclick="clic()">违法建筑的买卖合同是否有效？</li>
+          <li onclick="clic()">安置房买卖合同效力如何认定？</li>
+          <li onclick="clic()">房产继承需要哪些手续？</li>
+          <li onclick="clic()">农村宅基地怎么继承？</li>
+          <li onclick="clic()">不可抗力（疫情）无法继续购房，违约金可不可以减免？</li>
+          <li onclick="clic()">离婚房产如何分割？过错方能否少分？</li>
+          <li onclick="clic()">买到烂尾楼了怎么办？能否退还钱款？</li>
+          <li onclick="clic()">开发商延期交房怎么办？是否属于合同违约？</li>
+        </ul>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901">
+          <div class="phone" onclick="clic()">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div>
+        </a>
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 金牌律师 -->
+    <div id="lvshi">
+      <div class="biaoti">
+        <p>金牌律师团</p>
+      </div>
+      <div class="cont">
+        <div class="lvshituan">
+          本团队的工作是以当事人利益最大化为服务前提。<br />
+          我们的工作手段包括但不限于谈判、调查、诉讼等一切合法手段全方位的为当事人解决法律问题。
+        </div>
+        <div class="imgs">
+          <div class="left">
+            <img src="style/xiaoma.png" alt="" />
+          </div>
+          <div class="right">
+            <p class="red">马律师<span>执业21年</span></p>
+            <p>主任律师</p>
+            <p>毕业于北京大学法学院 ，法学硕士</p>
+            <p>
+              1999年开始专职律师执业，在房产领域有丰富经验。承办了大量房产疑难案件。根据当事人的个案的实际情况，量身制定有效的诉讼方案
+            </p>
+          </div>
+        </div>
+        <ul>
+          <li>北京法律咨询网房产领域首席推荐律师</li>
+          <li>已为<span class="reds">1350</span>为当事人解决房产烦恼</li>
+          <li onclick="clic()">代表案例：</li>
+          <li>1.李某分家析产打到高院终得300万房产！</li>
+          <li class="liaojieyixia"><a onclick="clic()">>>了解详情</a></li>
+          <li onclick="clic()">2.河南某市烂尾楼700余名业主维权，强制执行终拿回3亿购房款！</li>
+          <li class="liaojieyixia"><a onclick="clic()">>>了解详情</a></li>
+        </ul>
+        <div class="lingw">
+          <div onclick="clic()">
+            <img src="style/罗.png" alt="" />
+            <p>罗顾问</p>
+            <p>高级顾问</p>
+            <p>前法官</p>
+          </div>
+          <div onclick="clic()">
+            <img src="style/王.png" alt="" />
+            <p>王律师</p>
+            <p>专职律师</p>
+            <p>执业8年</p>
+          </div>
+          <div onclick="clic()">
+            <img src="style/线.png" alt="" />
+            <p>线律师</p>
+            <p>专职律师</p>
+            <p>执业12年</p>
+          </div>
+        </div>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901">
+          <div class="phone" onclick="clic()">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div>
+        </a>
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 4大优势 -->
+    <div id="xuanze">
+      <div class="biaoti">
+        <p>为什么选择我们</p>
+      </div>
+      <div class="cont">
+        <div onclick="clic()">
+          <p>01</p>
+          <p>团队办案</p>
+          <p class="red">由房产律师团分工合作、团队办案、共同研讨，针对客户委托量身定制方案。</p>
+        </div>
+        <div onclick="clic()">
+          <p>02</p>
+          <p>专业经验</p>
+          <p class="red">20年房地产法律从业，办案经验丰富，熟悉各种房产政策及维权措施。</p>
+        </div>
+        <div onclick="clic()">
+          <p>03</p>
+          <p>收费合理</p>
+          <p class="red">只收取一次费用，律师办案差旅费实报实销，不存在隐形收费。</p>
+        </div>
+        <div onclick="clic()">
+          <p>04</p>
+          <p>公平合理</p>
+          <p class="red">律师行业鱼龙混杂，选择好的律师结果大不同。</p>
+        </div>
+      </div>
+      <div class="buxie">
+        <img src="style/保 (1).png" alt="" />
+        <p>
+          博仁律师在此承诺：<br />
+          不屑也不会做出吃完原告吃被告行为
+        </p>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901">
+          <div class="phone" onclick="clic()">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div>
+        </a>
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 财产 -->
+    <div id="liucheng">
+      <div class="biaoti">
+        <p>服务流程</p>
+      </div>
+      <div class="cont">
+        <ul>
+          <li>
+            <div>咨询</div>
+            电话沟通，了解案情，给出建议<img src="style/下一步.png" alt="" />
+          </li>
+          <li>
+            <div>交流</div>
+            到所面谈，梳理材料，剖析案情<img src="style/下一步.png" alt="" />
+          </li>
+          <li>
+            <div>办案</div>
+            签订委托，案情研讨，确定方案<img src="style/下一步.png" alt="" />
+          </li>
+          <li>
+            <div>胜诉</div>
+            初步胜诉，跟踪执行，维护权益<img src="style/下一步.png" alt="" />
+          </li>
+        </ul>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901">
+          <div class="phone" onclick="clic()">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div>
+        </a>
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p class="zxr"><a href="tel:12345678901">咨询热线: 12345678901</a></p>
+      <p class="diz">地址: 北京市海淀区中关村南大街6号 中电信息大厦19-20层</p>
+      <div class="row">
+        <div class="col-md-6 col-sm-7">
+          <span>Copyright &copy; 2019.北京市博仁律师事务所 版权所有</span>
+        </div>
+
+        <div class="col-md-6 col-sm-5">
+          <div class="column-right">
+            <span
+              ><a style="color: white" target="_blank" href="http://beian.miit.gov.cn/"
+                >京 ICP备 20017560</a
+              ></span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- 浮窗 -->
+    <div class="footer" style="max-width: 640px" style="max-width: 640px">
+      <a href="tel:12345678901">
+        <img src="style/phone.png" />
+        <span>免费电话咨询<br />(24小时热线)</span>
+      </a>
+      <a onclick="clic()">
+        <img src="style/tel.png" />
+        <span>立即在线咨询<br />(有问必答)</span>
+      </a>
+    </div>
+    <!-- 浮窗 -->
+  </body>
+  <!-- <script src="style/swiper.min.js"></script> -->
+  <!-- <script>
+    var mySwiper = new Swiper(".swiper-container", {
+      autoplay: {
+        disableOnInteraction: false,
+      },
+      speed: 1000,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    mySwiper.params.pagination.clickable = true;
+    //此外还需要重新初始化pagination
+    mySwiper.pagination.destroy();
+    mySwiper.pagination.init();
+    mySwiper.pagination.bullets
+      .eq(0)
+      .addClass("swiper-pagination-bullet-active");
+  </script> -->
+</html>
+<script
+  language="javascript"
+  src="http://pwt.zoosnet.net/JS/LsJS.aspx?siteid=PWT15875131&float=1&lng=cn"
+></script>
+<script>
+  function clic() {
+    openZoosUrl('chatwin')
+    LR_HideInvite()
+    return false
+  }
+</script>

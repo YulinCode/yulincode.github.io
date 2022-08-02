@@ -1,0 +1,37 @@
+﻿ /* banner start */
+ .banner_content {
+    width: 100%;
+    min-width: 1180px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .banner_content .swiper-container {
+    width: 1920px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+  }
+
+  .banner_content .swiper-container .el-carousel {
+    z-index: 1;
+  }
+
+  .banner_content .swiper-container .el-carousel__button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #99a9bf;
+  }
+
+  .banner_content .swiper-container .is-active .el-carousel__button {
+    background-color: #ffffff;
+  }
+
+  .banner_content .swiper-container img {
+    cursor: pointer;
+  }
+
+  /* banner end */

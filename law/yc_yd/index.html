@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>北京市博仁律师事务所</title>
+    <link rel="stylesheet" href="style/swiper.min.css" />
+    <link rel="stylesheet" href="style/css.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script>
+      ;(function (doc, win) {
+        var docEl = win.document.documentElement
+        var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize'
+        var refreshRem = function () {
+          var clientWidth = win.innerWidth || doc.documentElement.clientWidth || doc.body.clientWidth
+          console.log(clientWidth)
+          if (!clientWidth) return
+          var fz
+          var width = clientWidth
+          fz = (100 * width) / 640
+          if (fz >= 100) {
+            fz = 100
+          }
+          docEl.style.fontSize = fz + 'px'
+        }
+        if (!doc.addEventListener) return
+        win.addEventListener(resizeEvt, refreshRem, false)
+        doc.addEventListener('DOMContentLoaded', refreshRem, false)
+        refreshRem()
+      })(document, window)
+    </script>
+
+    <script>
+      var _hmt = _hmt || []
+      ;(function () {
+        var hm = document.createElement('script')
+        hm.src = 'https://hm.baidu.com/hm.js?f61c577cf4fd161ce723e3e21462d273'
+        var s = document.getElementsByTagName('script')[0]
+        s.parentNode.insertBefore(hm, s)
+      })()
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="style/B2_03.jpg" alt="" /></div>
+      <div class="hdcontt">
+        <p class="hdbiao">品牌典范</p>
+        <p class="hdzhuan">20年继承纠纷经验</p>
+      </div>
+      <div class="hdside">
+        <a href="tel:12345678901"><img src="style/B2_05.jpg" alt="" /></a>
+      </div>
+    </header>
+    <div class="conts">
+      <div onclick="clic()" class="banner">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="style/banner11.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 继承纠纷 -->
+    <div id="jcjiufen">
+      <div class="biaoti">
+        <p>继承纠纷一般分为两种</p>
+        <span>有效遗嘱与顺位继承</span>
+      </div>
+      <div class="nxtoulu">
+        <div>被继承人立有遗嘱，遗嘱真实有效，继承人按遗嘱内容分配财产？</div>
+        <div>我认为遗嘱无效、分配不公更不合法！我该如何争得财产？</div>
+        <div onclick="clic()">
+          <img src="style/toulu.png" alt="" />
+          <p>咨询律师争得财产</p>
+        </div>
+        <div>被继承人死亡前没有立遗嘱，需按法定继承顺序继承财产？</div>
+        <div>我是第一顺序人继承人，在分配遗产时我会碰到哪些情况？要做哪些准备？</div>
+        <div onclick="clic()">
+          <img src="style/toulu.png" alt="" />
+          <p>咨询律师了解情况</p>
+        </div>
+      </div>
+    </div>
+    <!-- 业务领域 -->
+    <div id="yewu">
+      <div class="biaoti">
+        <p>业务领域</p>
+        <span>当事人利益更大化，是我们提供法律服务的目的</span>
+      </div>
+      <div class="cont">
+        <div onclick="clic()">
+          <img src="style/1.png" alt="" />
+          <p>房产继承</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/2.png" alt="" />
+          <p>财产继承</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/3.png" alt="" />
+          <p>宅基地继承</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/4.png" alt="" />
+          <p>遗嘱代书</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/5.png" alt="" />
+          <p>自书遗嘱</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/6.png" alt="" />
+          <p>遗嘱公证</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/7.png" alt="" />
+          <p>遗产分配</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/8.png" alt="" />
+          <p>遗产认定</p>
+        </div>
+        <div onclick="clic()">
+          <img src="style/9.png" alt="" />
+          <p>拆迁继承</p>
+        </div>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901"
+          ><div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div></a
+        >
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 你是否知道？ -->
+    <div id="zhidao">
+      <div class="biaoti">
+        <p>你是否知道？</p>
+        <span>有效遗嘱需具备4个条件</span>
+      </div>
+      <div class="cont">
+        <img src="style/zhidao.png" alt="" />
+        <p>遗嘱人有民事行为能力</p>
+        <p>遗嘱内容表示真实</p>
+        <p>遗嘱财产是合法财产</p>
+        <p>遗嘱内容形势合法</p>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901"
+          ><div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div></a
+        >
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 问题 -->
+    <div id="nanti">
+      <div class="biaoti">
+        <p>其他人还关注这些问题</p>
+        <span>常见问题</span>
+      </div>
+      <div class="cont">
+        <ul>
+          <li onclick="clic()">遗产继承包括哪些方式？<span>(点击咨询)</span></li>
+          <li onclick="clic()">打印遗嘱是否存在法律效力？<span>(点击咨询)</span></li>
+          <li onclick="clic()">遗嘱怎么写才能有法律效力？<span>(点击咨询)</span></li>
+          <li onclick="clic()">没有律师见证的遗嘱是否有效？<span>(点击咨询)</span></li>
+          <li onclick="clic()">子女谁照顾老人多就能多分遗产？<span>(点击咨询)</span></li>
+          <li onclick="clic()">如何确定多份遗嘱的法律效力？<span>(点击咨询)</span></li>
+          <li onclick="clic()">孩子与父母无血缘关系能否继承财产？<span>(点击咨询)</span></li>
+          <li onclick="clic()">老人未交代的遗产如何处理？<span>(点击咨询)</span></li>
+          <li onclick="clic()">私生子有权继承遗产吗？<span>(点击咨询)</span></li>
+          <li onclick="clic()">婚内继承房产算共同财产吗？<span>(点击咨询)</span></li>
+          <li onclick="clic()">婚内继承遗产算夫妻共同财产吗？<span>(点击咨询)</span></li>
+        </ul>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901"
+          ><div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div></a
+        >
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 律师 -->
+    <div id="lvshi">
+      <div class="biaoti">
+        <p>遗嘱继承律师团</p>
+        <span>20年资深律师，专业律师团队</span>
+      </div>
+      <div class="cont">
+        <div class="lvshituan">
+          本团队的工作是以当事人利益最大化为服务前提<br />
+          我们的工作手段包括但不限于谈判、调查、诉讼等一切合法手段全方位的为当事人解决法律问题。
+        </div>
+        <div class="imgs">
+          <div class="left"><img src="style/xiaoma.png" alt="" /></div>
+          <div class="right">
+            <p class="red">马律师<span>执业21年</span></p>
+            <p>主任律师</p>
+            <p>毕业于北京大学法学院 ，法学硕士</p>
+            <ul>
+              <li>20年专注遗产继承领域</li>
+              <li>北京知名遗产继承律师</li>
+              <li>2018年北京十大优秀律师</li>
+              <li>北京遗产继承首席律师</li>
+              <li>已为当事人挽回过亿损失，深受当事人好评</li>
+            </ul>
+          </div>
+        </div>
+        <ul>
+          <li>已为<span class="reds">1630</span>位当事人解决遗产纠纷</li>
+          <li onclick="clic()">典型案例：</li>
+          <li>北京朝阳区1300万房产继承案二审改判胜诉</li>
+          <li class="liaojieyixia"><a onclick="clic()">>>了解详情</a></li>
+          <li onclick="clic()">法庭质证环节指出遗嘱造假属无效，挽回当事人650万财产损失</li>
+          <li class="liaojieyixia"><a onclick="clic()">>>了解详情</a></li>
+        </ul>
+        <div class="lingw">
+          <div onclick="clic()">
+            <img src="style/罗.png" alt="" />
+            <p>罗顾问</p>
+            <p>高级顾问</p>
+            <p>前法官</p>
+          </div>
+          <div onclick="clic()">
+            <img src="style/王.png" alt="" />
+            <p>王律师</p>
+            <p>专职律师</p>
+            <p>执业12年</p>
+          </div>
+          <div onclick="clic()">
+            <img src="style/线.png" alt="" />
+            <p>线律师</p>
+            <p>专职律师</p>
+            <p>执业8年</p>
+          </div>
+        </div>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901"
+          ><div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div></a
+        >
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 优势 -->
+    <div id="xuanze">
+      <div class="biaoti">
+        <p>我们的优势</p>
+        <span>为什么选择我们</span>
+      </div>
+      <div class="cont">
+        <div onclick="clic()">
+          <p>专业放心</p>
+          <p class="red">首席律师20年民商案件办理经验，工作定期沟通，进展及时汇报</p>
+        </div>
+        <div onclick="clic()">
+          <p>高效咨询</p>
+          <p class="red">电话咨询虽免费但绝不保留，到所面谈主任律师一对一提供胜诉方案</p>
+        </div>
+        <div onclick="clic()">
+          <p>经验丰富</p>
+          <p class="red">为当事人保全过亿财产，并成功代理过千余起继承案件</p>
+        </div>
+        <div onclick="clic()">
+          <p>数据应用</p>
+          <p class="red">根据个案情况，应用大数据预测案件走向</p>
+        </div>
+        <div onclick="clic()">
+          <p>温情办案</p>
+          <p class="red">庭前辅导、心理辅导，在维护好家族感情的情况下，帮您拿回财产</p>
+        </div>
+        <div onclick="clic()">
+          <p>收费透明</p>
+          <p class="red">只收取一次费用，律师办案差旅费实报实销，无隐形收费，无二次收费</p>
+        </div>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901"
+          ><div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div></a
+        >
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 流程 -->
+    <div id="liucheng">
+      <div class="biaoti">
+        <p>服务流程</p>
+        <span>您距离拿回财产只差一个电话</span>
+      </div>
+      <div class="cont">
+        <ul>
+          <li>电话沟通，了解案情，初步判断给出建议</li>
+          <li>到所面谈，梳理材料，主任律师剖析案情</li>
+          <li>签订委托，案情研讨，律师团队确定方案</li>
+          <li>胜诉判决，跟踪执行，打完官司维护权益</li>
+        </ul>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901"
+          ><div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>电话咨询律师</p>
+          </div></a
+        >
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="zxr"><a href="tel:12345678901">咨询热线: 12345678901</a></p>
+      <p class="diz">地址: 北京市海淀区中关村南大街6号 中电信息大厦19-20层</p>
+      <div class="row">
+        <div class="col-md-6 col-sm-7">
+          <span>Copyright &copy; 2019.北京市博仁律师事务所 版权所有</span>
+        </div>
+      </div>
+    </footer>
+    <div class="footer" style="max-width: 640px" style="max-width: 640px">
+      <a href="tel:12345678901"
+        ><img src="style/phone.png" /><span>免费电话咨询<br />(24小时热线)</span></a
+      ><a onclick="clic()"
+        ><img src="style/tel.png" /><span>立即在线咨询<br />(有问必答)</span></a
+      >
+    </div>
+  </body>
+</html>
+<script language="javascript">
+  var LiveReceptionCode_chatexplain_online = '移动'
+  LiveReceptionCode_chatexplain_online = escape(LiveReceptionCode_chatexplain_online)
+</script>
+<script
+  language="javascript"
+  src="http://pwt.zoosnet.net/JS/LsJS.aspx?siteid=PWT15875131&float=1&lng=cn"
+></script>
+<script>
+  function clic() {
+    openZoosUrl('chatwin')
+    LR_HideInvite()
+    return false
+  }
+</script>

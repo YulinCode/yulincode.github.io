@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>北京市博仁律师事务所</title>
+    <link rel="stylesheet" href="style/swiper.min.css" />
+    <link rel="stylesheet" href="style/css.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script>
+      ;(function (doc, win) {
+        var docEl = win.document.documentElement
+        var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize'
+        var refreshRem = function () {
+          var clientWidth = win.innerWidth || doc.documentElement.clientWidth || doc.body.clientWidth
+
+          console.log(clientWidth)
+          if (!clientWidth) return
+          var fz
+          var width = clientWidth
+          fz = (100 * width) / 640
+          if (fz >= 100) {
+            fz = 100
+          }
+          docEl.style.fontSize = fz + 'px'
+        }
+
+        if (!doc.addEventListener) return
+        win.addEventListener(resizeEvt, refreshRem, false)
+        doc.addEventListener('DOMContentLoaded', refreshRem, false)
+        refreshRem()
+      })(document, window)
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="style/B2_03.jpg" alt="" />
+      </div>
+      <div class="hdcontt">
+        <p class="hdbiao">品牌典范</p>
+        <p class="hdzhuan">20年专注刑事辩护</p>
+      </div>
+      <div class="hdside">
+        <a href="tel:12345678901">
+          <img src="style/B2_05.jpg" alt="" />
+        </a>
+      </div>
+    </header>
+    <div class="conts">
+      <!-- BANNER -->
+      <div onclick="clic()" class="banner">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="style/banner11.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="style/banner22.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- 减轻处罚 -->
+    <div id="chufa">
+      <div class="biaoti">
+        <div>减轻处罚的黄金72小时</div>
+        <span>律师及早介入可有效取保、不起诉</span>
+      </div>
+      <div class="cont">
+        <div>
+          <p>取保候审</p>
+          <p>缓刑或不起诉的前提条件</p>
+          <p>委托后立即办理取保候审</p>
+        </div>
+        <div>
+          <p>罪名核实</p>
+          <p>减轻处罚的重要环节</p>
+          <p>24小时内进行核实</p>
+        </div>
+        <div>
+          <p>非法证据排除</p>
+          <p>定罪量刑的关键所在</p>
+          <p>审查证据合法性，避免冤假错案</p>
+        </div>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901">
+          <div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div>
+        </a>
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 业务范围 -->
+    <div id="yewu">
+      <div class="biaoti">
+        <div>业务领域</div>
+        <span>生命、自由无价</span>
+      </div>
+      <div class="cont">
+        <div onclick="clic()">无罪辩护</div>
+        <div onclick="clic()">罪轻辩护</div>
+        <div onclick="clic()">死刑复核</div>
+        <div onclick="clic()">职务犯罪</div>
+        <div onclick="clic()">取保撤诉</div>
+        <div onclick="clic()">再审翻案</div>
+        <div onclick="clic()">二审改判</div>
+        <div onclick="clic()">犯罪防控</div>
+        <div onclick="clic()">被害人代理</div>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901">
+          <div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div>
+        </a>
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 关注 -->
+    <div id="nanti">
+      <div class="biaoti">
+        <div>更多当事人关注</div>
+        <span>依法辩护，义无反顾</span>
+      </div>
+      <div class="cont">
+        <ul>
+          <li onclick="clic()">亲人被刑事拘留了怎么办？</li>
+          <li onclick="clic()">被拘留了如何定罪量刑？能否判缓？</li>
+          <li onclick="clic()">租客在出租屋吸毒，房东有法律责任吗？</li>
+          <li onclick="clic()">利用微信红包赌博，构成开设赌场罪吗？</li>
+          <li onclick="clic()">什么罪名是轻罪，能免于刑事处罚？</li>
+          <li onclick="clic()">如何取得对方的刑事谅解书？</li>
+          <li onclick="clic()">职务犯罪的定罪量刑标准是怎样的？</li>
+          <li onclick="clic()">庭审阶段哪些证据对当事人有利？</li>
+          <li onclick="clic()">初犯、偶犯、自首、退赃、谅解能减刑多久？</li>
+        </ul>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901">
+          <div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div>
+        </a>
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 关于无罪 -->
+    <div id="wuzui">
+      <div class="biaoti">
+        <div>关于无罪辩护</div>
+      </div>
+      <div class="cont">
+        <div>中国当庭宣判无罪的比例极低<br />其实以下四种皆可作为成功无罪辩护的标志:</div>
+        <ul>
+          <li>①检方撤诉</li>
+          <li>②二审法院撤销原判，发回重审</li>
+          <li>③罪名不符缓刑条件，但法院判缓</li>
+          <li>④“实报实销”式审判，庭审前羁押几个月，法院就判几个月</li>
+        </ul>
+        <img src="style/renwu.png" alt="" />
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901">
+          <div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div>
+        </a>
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 金牌律师 -->
+    <div id="lvshi">
+      <div class="biaoti">
+        <div>多年审判经验，前刑庭审判法官带队</div>
+      </div>
+      <div class="cont">
+        <div class="lvshituan">以事实为依据，以法律为准绳</div>
+        <div class="imgs">
+          <div class="left">
+            <img src="style/xiaoma.png" alt="" />
+          </div>
+          <div class="right">
+            <p class="red">陆律师<span>执业19年</span></p>
+            <ul>
+              <li>前北京某人民法院刑庭审判法官</li>
+              <li>前北京某人民法院执行法官</li>
+              <li>刑民交叉业务部高级顾问</li>
+              <li>专注刑辩领域</li>
+              <li>北京知名刑事律师</li>
+              <li>2017年优秀刑事律师</li>
+            </ul>
+          </div>
+        </div>
+        <ul>
+          <li>已帮助<span class="reds">上百</span>名当事人重获自由、罪轻辩护</li>
+          <li onclick="clic()">代表案例：</li>
+          <li>1.代理王某行贿432.5万案，被以行贿罪起诉，终通过辩护免受<span class="red">牢狱之灾</span>。</li>
+          <li class="liaojieyixia"><a onclick="clic()">>>了解详情</a></li>
+          <li onclick="clic()">
+            2.代理杨某运输毒品3150克案，一审法院判决死刑，二审<span class="red">改判免死</span>。
+          </li>
+          <li class="liaojieyixia"><a onclick="clic()">>>了解详情</a></li>
+          <li onclick="clic()">
+            2.代理张某破坏计算机系统案，检察院量刑7年以上，律师成功辩护为<span class="red">无罪</span>。
+          </li>
+          <li class="liaojieyixia"><a onclick="clic()">>>了解详情</a></li>
+        </ul>
+        <div class="lingw">
+          <div onclick="clic()">
+            <img src="style/罗.png" alt="" />
+            <p>罗顾问</p>
+            <p>16年法官经验</p>
+          </div>
+          <div onclick="clic()">
+            <img src="style/杨.png" alt="" />
+            <p>杨律师</p>
+            <p>资深律师</p>
+          </div>
+          <div onclick="clic()">
+            <img src="style/王.png" alt="" />
+            <p>王律师</p>
+            <p>北大法学学士</p>
+          </div>
+        </div>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901">
+          <div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div>
+        </a>
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 建议 -->
+    <div id="jianyis">
+      <div class="biaoti">
+        <div>为了您的亲友能重获自由，我们能为您做什么？</div>
+      </div>
+      <div class="ce">权利是不会主动实现的，没有律师为您争取，所有权利都是一纸空文</div>
+      <div class="cont">
+        <div onclick="clic()">律师会见<br />24小时内会见解答，了解案情，初定走向</div>
+        <div onclick="clic()">取保候审<br />当天申请取保，抓住侦查阶段取保的黄金72小时</div>
+        <div onclick="clic()">不予起诉<br />向检方提交不予起诉意见书</div>
+        <div onclick="clic()">无罪辩护<br />寻找无罪新证据，推翻公诉人的指控</div>
+        <div onclick="clic()">缓刑判决<br />获得被害人谅解书，办理取保</div>
+        <div onclick="clic()">罪轻辩护<br />全力取得谅解书，提交减刑意见书</div>
+        <div onclick="clic()">二审改判<br />寻找新证据，指出原审法院适用法律的错误</div>
+        <div onclick="clic()">再审申诉<br />寻找新的证据，申诉推翻终审判决</div>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901">
+          <div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div>
+        </a>
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+    <!-- 4大优势 -->
+    <div id="xuanze">
+      <div class="biaoti">
+        <div>为什么选择我们</div>
+      </div>
+      <div class="ce">对刑事辩护来说，输了，你的亲友将会失去自由甚至生命。<br />因此选对律师很重要</div>
+      <div class="cont">
+        <div onclick="clic()">
+          <p>01</p>
+          <p>经验丰富</p>
+          <p class="red">法官思维把控案情，预测走向</p>
+        </div>
+        <div onclick="clic()">
+          <p>02</p>
+          <p>深度专注</p>
+          <p class="red">20年只做刑事案件</p>
+        </div>
+        <div onclick="clic()">
+          <p>03</p>
+          <p>联合办案</p>
+          <p class="red">前法官+资深刑事律师+北大教授顾问联合办案</p>
+        </div>
+        <div onclick="clic()">
+          <p>04</p>
+          <p>收费公平</p>
+          <p class="red">只收取一次费用，差旅费实报实销</p>
+        </div>
+      </div>
+      <div class="lianxi">
+        <a href="tel:12345678901">
+          <div class="phone">
+            <img src="style/电话.png" alt="" />
+            <p>免费电话咨询</p>
+          </div>
+        </a>
+        <div class="phone" onclick="clic()">
+          <img onclick="clic()" src="style/消息.png" alt="" />
+          <p>在线咨询律师</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p class="zxr"><a href="tel:12345678901">咨询热线: 12345678901</a></p>
+      <p class="diz">地址: 北京市海淀区中关村南大街6号 中电信息大厦19-20层</p>
+      <div class="row">
+        <div class="col-md-6 col-sm-7">
+          <span>Copyright &copy; 2019.北京市博仁律师事务所 版权所有</span>
+        </div>
+      </div>
+    </footer>
+    <!-- 浮窗 -->
+    <div class="footer" style="max-width: 640px" style="max-width: 640px">
+      <a href="tel:12345678901">
+        <img src="style/phone.png" />
+        <span>免费电话咨询<br />(24小时热线)</span>
+      </a>
+      <a onclick="clic()">
+        <img src="style/tel.png" />
+        <span>立即在线咨询<br />(有问必答)</span>
+      </a>
+    </div>
+    <!-- 浮窗 -->
+  </body>
+  <script src="style/swiper.min.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+      autoplay: {
+        disableOnInteraction: false,
+      },
+      speed: 1000,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    })
+    mySwiper.params.pagination.clickable = true
+    //此外还需要重新初始化pagination
+    mySwiper.pagination.destroy()
+    mySwiper.pagination.init()
+    mySwiper.pagination.bullets.eq(0).addClass('swiper-pagination-bullet-active')
+  </script>
+</html>
+<script language="javascript">
+  var LiveReceptionCode_chatexplain_online = '移动石'
+  LiveReceptionCode_chatexplain_online = escape(LiveReceptionCode_chatexplain_online)
+</script>
+<script
+  language="javascript"
+  src="http://pwt.zoosnet.net/JS/LsJS.aspx?siteid=PWT15875131&float=1&lng=cn"
+></script>
+<script>
+  function clic() {
+    openZoosUrl('chatwin')
+    LR_HideInvite()
+    return false
+  }
+</script>

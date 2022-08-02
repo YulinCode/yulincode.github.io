@@ -1,0 +1,73 @@
+
+// 头部导航
+$(".head_bottom ul li").mouseenter(function () {
+    $(this).find("span").show();
+});
+$(".head_bottom ul li").mouseleave(function () {
+    $(this).find("span").hide();
+});
+
+// <!-- 设置select字体颜色 -->
+var unSelected = "#757575";
+var selected = "#333";
+$(function () {
+    $("select").css("color", unSelected);
+    $("option").css("color", selected);
+    $("select").change(function () {
+        var selItem = $(this).val();
+        if (selItem == $(this).find('option:first').val()) {
+            $(this).css("color", unSelected);
+        } else {
+            $(this).css("color", selected);
+        }
+    });
+});
+
+// 非诉业务、民事案件、刑事案件 公用js  start
+$(".top_nav_content_btn_cont a").click(function () {
+    $(".top_nav_content_btn_cont a").removeClass("curentStyle");
+    $(this).addClass("curentStyle");
+});
+
+//添加一个滚动滚动监听事件，
+function handleScroll() {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+    var offsetTop = document.querySelector('.lawyer_service_list').offsetTop
+    if (scrollTop > offsetTop) {
+        // this.searchBarFixed = true
+        $(".service_list_btn").addClass("isFixed");
+        $(".lawyer_list").addClass("isFixed");
+    }
+    if (scrollTop < offsetTop) {
+        $(".service_list_btn").removeClass("isFixed");
+        $(".lawyer_list").removeClass("isFixed");
+    }
+};
+
+
+// 律师就在身边板块轮播公用js
+function lawyerSwiper() {
+    new Swiper('.lawyer_side_swiper', {
+        loop: true,
+        slidesPerView: 2,
+        autoplay: {
+            disableOnInteraction: false, // 鼠标滑动后继续自动播放
+        },
+        speed: 1000,//切换速度
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });  
+}
+
+// // 限制律师就在身边的标签字数
+// let goodAt = $(".FS_goodAt").html();
+// goodAt = goodAt.substring(7, 0);
+// $(".FS_goodAt").html(goodAt);
+// // 非诉业务、民事案件、刑事案件 公用js  end
+
+// // 限制律师就在身边的标签字数
+// let lawInfo = $(".be_good_at").html();
+// lawInfo = lawInfo.substring(14,0)+"...";
+// $(".be_good_at").html(lawInfo);
