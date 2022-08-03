@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        margin: 20px;
+        width: 600px;
+        height: 200px;
+        background-color: #fff;
+        transition: all 0.1s ease;
+      }
+    </style>
+    <script type="module">
+      import getColor from './index.js'
+      const dark = document.getElementsByClassName('dark')[0]
+      const light = document.getElementsByClassName('light')[0]
+      const dark2 = document.getElementsByClassName('dark')[1]
+      const light2 = document.getElementsByClassName('light')[1]
+      const arr = [dark2.getAttribute('src'), light2.getAttribute('src')]
+      for (let index = 0; index < arr.length; index++) {
+        getColor(arr[index]).then(res => {
+          if (index === 0) dark.style.background = 'rgba(' + res + ')'
+          else light.style.background = 'rgba(' + res + ')'
+        })
+      }
+    </script>
+    <style>
+      .p {
+        background-color: rgba(255, 14, 31, 61);
+        color: rgba(255, 14, 31, 61);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dark">
+      <img class="dark" style="width: 200px" src="img/dark.jpg" alt="" />
+    </div>
+    <div class="light">
+      <img class="light" style="width: 200px" src="img/light.jpg" alt="" />
+    </div>
+  </body>
+</html>

@@ -1,3 +1,10 @@
+a {
+}
+
+h4:nth-child(1) {
+  text-transform: uppercase;
+}
+
 .wechat__wrap {
   display: flex;
 }
@@ -9,4 +16,30 @@
   border: 1px solid #999;
   border-radius: 9px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.other ol li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+  border-radius: 3px;
+  width: 80%;
+}
+.other ol li:nth-child(even) {
+  background-color: rgba(153, 153, 153, 0.218);
+}
+
+.other ol li p {
+  margin: 9px;
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.other ol li a {
+  margin-left: 20px;
+  max-width: calc(80% - 120px);
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
